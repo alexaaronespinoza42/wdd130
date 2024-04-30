@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Quicksand&display=swap');
+
+:root {
+    --primary-color: #41AEC6;
+    --secondary-color: #F48E00;
+    --accent1-color: #00D928;
+    --accent2-color: #FFFFFF;
+  
+    --heading-font: Alatsi;
+    --paragraph-font: Quicksand, Helvetica, sans-serif;
+  
+    --nav-background-color: #00D928;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #41AEC6;
+    --nav-hover-background-color: #FFFFFF;
+    
+  }
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 25px;
+    text-align: center;
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+p.colored {
+  background-color: var(--secondary-color);
+}
+
+.palette {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    border: 2px solid black;
+}
