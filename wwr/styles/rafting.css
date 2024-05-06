@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Quicksand&display=swap');
+
+:root {
+    --primary-color: #41AEC6;
+    --secondary-color: #F48E00;
+    --accent1-color: #00D928;
+    --accent2-color: #FFFFFF;
+  
+    --heading-font: Alatsi;
+    --paragraph-font: Quicksand, Helvetica, sans-serif;
+  
+    --nav-background-color: #00D928;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #41AEC6;
+    --nav-hover-background-color: #FFFFFF;
+    
+}
+
+* {
+    margin: 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
