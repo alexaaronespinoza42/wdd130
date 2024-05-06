@@ -16,8 +16,74 @@
     
 }
 
+
+/* General CSS */
 * {
-    margin: 0;
-    padding-left: 10px;
+    margin: 5px;
+    padding-left: 5px;
     box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+
+/* Header - Nav*/
+
+
+/* Hero */
+.hero {
+    position: relative;
+    color: var(--accent2-color); /* Set text color */
+}
+
+.hero img {
+    width: 98%; 
+    height: auto; 
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px; 
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%; /* Position at the bottom */
+    left: 50%; /* Position at the horizontal center */
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: rgba(29, 9, 143, 0.7); /* Add background color with opacity */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+.hero article img {
+    float: right; /* Float the image to the right */
+    margin-left: 10px; /* Add space between image and text */
+    width: 200px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Main Body */
+
+
+/* Footer */
+.socialLinks a {
+    display: inline-block; 
+    margin-right: 0; 
+}
+
+.socialLinks img {
+    width: 80px; 
+    height: 80px; 
 }
