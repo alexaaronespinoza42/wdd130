@@ -3,7 +3,7 @@
 :root {
     --primary-color: #41AEC6;
     --secondary-color: #F48E00;
-    --accent1-color: #00D928;
+    --accent1-color: #325f3b;
     --accent2-color: #FFFFFF;
   
     --heading-font: Alatsi;
@@ -40,7 +40,7 @@ p {
 /* Hero */
 .hero {
     position: relative;
-    color: var(--accent2-color); /* Set text color */
+    color: var(--accent2-color); 
 }
 
 .hero img {
@@ -50,29 +50,32 @@ p {
 
 .hero h1 {
     position: absolute;
-    top: 50%; 
+    top: 100px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px; 
-    background-color: rgba(0, 0, 0, 0.7);
+    transform: translateX(-50%);
+    font-size: 60px;
+    background-color: var(--accent1-color); 
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 .hero article {
     position: absolute;
-    bottom: 10%; /* Position at the bottom */
-    left: 50%; /* Position at the horizontal center */
-    transform: translateX(-50%); /* Center horizontally */
-    background-color: rgba(29, 9, 143, 0.7); /* Add background color with opacity */
-    padding: 20px; /* Add padding */
-    border-radius: 10px; /* Add border-radius for rounded corners */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--accent1-color); 
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .hero article img {
-    float: right; /* Float the image to the right */
-    margin-left: 10px; /* Add space between image and text */
-    width: 200px; /* Adjust image width */
-    height: auto; /* Maintain aspect ratio */
+    width: 220px;
+    height: auto;
+    float: right;
+    margin-left: 10px;
 }
+
 
 /* Main Body */
 
@@ -86,4 +89,4 @@ p {
 .socialLinks img {
     width: 80px; 
     height: 80px; 
-}
+}2
