@@ -32,10 +32,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
-h2{
-    padding-bottom: 20px;
-}
-
 p {
     font-family: var(--paragraph-font);
 }
@@ -156,7 +152,7 @@ nav {
 
 .history-section h2 {
     width: 100%; 
-    text-align: center; 
+    text-align: center;
 }
 
 .history-section p {
@@ -176,6 +172,10 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 20px;
+}
+
+.adventure-section h2{
+    padding-bottom: 20px;
 }
 
 .adventure-images {
