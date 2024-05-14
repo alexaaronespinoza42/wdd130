@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+h2{
+    padding-bottom: 20px;
+}
+
 p {
     font-family: var(--paragraph-font);
 }
@@ -136,20 +140,37 @@ nav {
     margin-left: 10px;
 }
 
-/* Main Body */
-
+/* History Section */
 .history-section {
     max-width: 1100px; 
     margin: 0 auto; 
     text-align: justify; 
     padding-bottom: 20px;
+    /*week04learningactivity*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .history-section h2 {
+    width: 100%; 
     text-align: center; 
 }
 
-/* Figures */
+.history-section p {
+    max-width: 50%; 
+    margin: 0;
+    padding: 10px; 
+}
+
+.history-section img {
+    max-width: 15%; 
+    margin: 0 10px; 
+}
+
+/* Adventure Section */
 .adventure-section {
   display: flex;
   flex-wrap: wrap;
