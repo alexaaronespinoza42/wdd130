@@ -222,6 +222,8 @@ header h1 {
     height: 40px; 
 }
 
+/* Contact us Page*/
+
 .contactHeader{
     text-align: center;
     justify-content: center;
@@ -250,7 +252,7 @@ header h1 {
     padding: 20px;
     border: 2px solid #278a1a;
     border-radius: 5px;
-    background-color: rgb(196, 230, 190);
+    background-color: rgb(217, 238, 213);
 }
 
 .boxAs h2, .boxAs p{
@@ -305,7 +307,7 @@ form button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: var(--primary-color);
+    background-color: rgb(29, 54, 30);
     color: white;
     border: none;
     cursor: pointer;
