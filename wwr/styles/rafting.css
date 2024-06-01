@@ -465,7 +465,7 @@ form {
 form input[type="text"], 
 form textarea, 
 form input[type="email"],
-form input[type="phone"] {
+form input[type="tel"] {
     width: 82%;
     padding: 7px;
     margin-top: 5px;
