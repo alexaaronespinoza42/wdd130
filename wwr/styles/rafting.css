@@ -419,9 +419,9 @@ form button {
 
 .boxIndex {
     padding: 20px;
-    border: 2px solid #278a1a;
+    border: 2px solid #b11c08;
     border-radius: 5px;
-    background-color: rgb(217, 238, 213);
+    background-color: rgb(240, 205, 176);
     max-width: 500px;
 }
 
@@ -447,9 +447,9 @@ form button {
 }
 .contact-formIndex {
     padding: 20px;
-    border: 2px solid #278a1a;
+    border: 2px solid #b11c08;
     border-radius: 5px;
-    background-color: rgb(217, 238, 213);
+    background-color: rgb(240, 205, 176);
 }
 
 .contact-formIndex h2, .contact-formIndex p{
@@ -523,9 +523,9 @@ form button {
 
 .grid-itemIndex {
     padding: 20px;
-    border: 2px solid #278a1a;
+    border: 2px solid #b11c08;
     border-radius: 5px;
-    background-color: rgb(217, 238, 213);
+    background-color: rgb(240, 205, 176);
 }
 
 .grid-itemIndex p{
