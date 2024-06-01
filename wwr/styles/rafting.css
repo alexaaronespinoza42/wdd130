@@ -352,7 +352,6 @@ form button {
 .heroIndex {
     position: relative;
     color: var(--accent2-color); 
-    padding-bottom: 20px;
 }
 
 .heroIndex img {
@@ -408,6 +407,140 @@ form button {
     background-color: #ff9204; 
     color: white;
     text-decoration: none;
+}
+
+#mainIndex {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 30px;
+    gap: 30px; 
+}
+
+.boxIndex {
+    padding: 20px;
+    border: 2px solid #278a1a;
+    border-radius: 5px;
+    background-color: rgb(217, 238, 213);
+    max-width: 500px;
+}
+
+.indexImage {
+    text-align: center; 
+}
+
+.indexImage img {
+    display: inline-block;
+    max-width: 225px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.boxIndexh2, .boxIndex p{
+    text-align: justify;
+    padding: 5px;
+}
+
+.form-containerIndex {
+    flex: 1;
+    max-width: 330px;
+}
+.contact-formIndex {
+    padding: 20px;
+    border: 2px solid #278a1a;
+    border-radius: 5px;
+    background-color: rgb(217, 238, 213);
+}
+
+.contact-formIndex h2, .contact-formIndex p{
+    padding-bottom: 10px;
+}
+
+form {
+    display: block;
+    font-family: var(--paragraph-font);
+    font-size: 15px;
+}
+
+form input[type="text"], 
+form textarea, 
+form input[type="email"],
+form input[type="phone"] {
+    width: 82%;
+    padding: 7px;
+    margin-top: 5px;
+    border: 1px solid #278a1a;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+form input[type="email"]{
+    width: 83.5%;
+}
+
+form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(29, 54, 30);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.indexMain p {
+    padding-top: 20px;
+    margin: 0 140px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.indexMain ul {
+    margin: 20px 160px;
+    margin-left: 120px;
+}
+
+.indexMain li{
+    font-family: var(--paragraph-font);
+    margin-bottom: 12px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.grid-containerIndex {
+    display: grid;
+    max-width: 750px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.grid-itemIndex {
+    padding: 20px;
+    border: 2px solid #278a1a;
+    border-radius: 5px;
+    background-color: rgb(217, 238, 213);
+}
+
+.grid-itemIndex p{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.gridImagesIndex img {
+    margin: 10px;
+    box-shadow: 0 0 10px var(--imgbox-color);
+    width: 290px;
+}
+
+.grid-item:hover {
+    transform: scale(1.1); 
 }
 
 /* TRIPHTML */
@@ -557,3 +690,5 @@ td{
 th {
     background-color: var(--accent1-color)
 }
+
+
